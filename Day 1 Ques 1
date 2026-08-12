@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(){
+    int a, b, sum;
+
+    scanf("%d %d", &a, &b);
+
+    sum = a + b;
+
+    printf("Sum = %d", sum);
+
+    return 0;
+}
+
+
+
+
+
+ setting up environment for using MinGW with GCC from C:\TDM-GCC-64\.
+
+C:\TDM-GCC-64>cd C:\Users\SUMIT KAUSHIK\Desktop\C Program
+
+C:\Users\SUMIT KAUSHIK\Desktop\C Program>gcc ques1.c -o ques1.exe
+
+C:\Users\SUMIT KAUSHIK\Desktop\C Program>ques1.exe
+
+3 4
+sum = 7 
