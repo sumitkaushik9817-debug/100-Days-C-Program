@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    double radius;
+    const double PI = 3.14159265358979323846;
+
+    // Read the radius
+    if (scanf("%lf", &radius) == 1) {
+        
+        // Calculate area and circumference
+        double area = PI * radius * radius;
+        double circumference = 2 * PI * radius;
+
+        // Print the result formatted to 2 decimal places
+        printf("Area=%.2f, Circumference=%.2f\n", area, circumference);
+    }
+
+    return 0;
+}
+
+
+
+
+Setting up environment for using MinGW with GCC from C:\TDM-GCC-64\.
+
+C:\TDM-GCC-64>cd C:\Users\SUMIT KAUSHIK\Desktop\C Program
+
+C:\Users\SUMIT KAUSHIK\Desktop\C Program>gcc ques4.c -o ques4.exe
+
+C:\Users\SUMIT KAUSHIK\Desktop\C Program>ques4.exe
+7
+Area=153.94, Circumference=43.96
