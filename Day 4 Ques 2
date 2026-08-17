@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int n, sum = 0;
+
+    scanf("%d", &n);
+
+    sum = n * (n + 1) / 2;
+
+    printf("Sum=%d", sum);
+
+    return 0;
+}
+
+
+
+
+
+Setting up environment for using MinGW with GCC from C:\TDM-GCC-64\.
+
+C:\TDM-GCC-64>cd C:\Users\SUMIT KAUSHIK\Desktop\C Program
+
+C:\Users\SUMIT KAUSHIK\Desktop\C Program>gcc ques8.c -o ques8.out
+
+C:\Users\SUMIT KAUSHIK\Desktop\C Program>ques8.out
+5
+Sum=15
