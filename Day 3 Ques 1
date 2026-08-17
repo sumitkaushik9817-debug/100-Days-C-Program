@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+    float celsius, fahrenheit;
+
+    scanf("%f", &celsius);
+
+    fahrenheit = (celsius * 9 / 5) + 32;
+
+    printf("Fahrenheit=%.0f", fahrenheit);
+
+    return 0;
+}
+
+
+
+
+
+
+Setting up environment for using MinGW with GCC from C:\TDM-GCC-64\.
+
+C:\TDM-GCC-64>cd C:\Users\SUMIT KAUSHIK\Desktop\C Program
+
+C:\Users\SUMIT KAUSHIK\Desktop\C Program>gcc ques5.c -o ques5.out
+
+C:\Users\SUMIT KAUSHIK\Desktop\C Program>ques5.out
+0
+Fahrenheit=32
+C:\Users\SUMIT KAUSHIK\Desktop\C Program>
+
