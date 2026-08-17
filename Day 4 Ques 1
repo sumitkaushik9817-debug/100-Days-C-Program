@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+
+    scanf("%d %d", &a, &b);
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    printf("After swap: %d %d", a, b);
+
+    return 0;
+}
+
+
+
+
+
+Setting up environment for using MinGW with GCC from C:\TDM-GCC-64\.
+
+C:\TDM-GCC-64>cd C:\Users\SUMIT KAUSHIK\Desktop\C Program
+
+C:\Users\SUMIT KAUSHIK\Desktop\C Program>gcc ques7.c -o ques7.out
+
+C:\Users\SUMIT KAUSHIK\Desktop\C Program>ques7.out
+10 20
+After swap: 20 10
