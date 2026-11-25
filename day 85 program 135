@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+enum Numbers {
+    ONE = 10,
+    TWO,
+    THREE,
+    FOUR,
+    FIVE
+};
+
+int main() {
+
+    printf("ONE = %d\n", ONE);
+    printf("TWO = %d\n", TWO);
+    printf("THREE = %d\n", THREE);
+    printf("FOUR = %d\n", FOUR);
+    printf("FIVE = %d\n", FIVE);
+
+    return 0;
+}

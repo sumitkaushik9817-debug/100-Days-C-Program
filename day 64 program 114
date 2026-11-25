@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[100];
+    int max = 0, count;
+
+    scanf("%99s", str);
+
+    int len = strlen(str);
+
+    for(int i = 0; i < len; i++) {
+        int visited[256] = {0};
+        count = 0;
+
+        for(int j = i; j < len; j++) {
+            if(visited[(unsigned char)str[j]] == 1) {
+                break;
+            }
+
+            visited[(unsigned char)str[j]] = 1;
+            count++;
+        }
+
+        if(count > max) {
+            max = count;
+        }
+    }
+
+    printf("%d", max);
+
+    return 0;
+}

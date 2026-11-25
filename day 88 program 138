@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+
+enum Days {
+    MONDAY = 1,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY
+};
+
+int main() {
+    enum Days d;
+
+    char *names[] = {
+        "MONDAY",
+        "TUESDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "FRIDAY"
+    };
+
+    for (d = MONDAY; d <= FRIDAY; d++) {
+        printf("%s = %d\n", names[d - 1], d);
+    }
+
+    return 0;
+}
